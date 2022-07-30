@@ -1,0 +1,32 @@
+{
+  "name": "atdark",
+  "displayName": "AT Dark",
+  "description": "Dark AT theme for VSCode",
+  "author": {
+    "name": "Chris van Meer",
+    "email": "c.v.meer@atcomputing.nl",
+    "url": "https://www.linkedin.com/in/chrisvanmeer/"
+  },
+  "publisher": "chrisvanmeer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisvanmeer/vscode-atdark"
+  },
+  "icon": "images/icon/at-logo.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AT Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AT Dark-color-theme.json"
+      }
+    ]
+  }
+}
