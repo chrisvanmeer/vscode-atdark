@@ -65,7 +65,7 @@
     "tab.lastPinnedBorder": "#3399cc",
     "tab.unfocusedActiveModifiedBorder": "#3399cc90",
     "tab.unfocusedInactiveModifiedBorder": "#3399cc80",
-    "titleBar.activeBackground": "#070f15"
+    "titleBar.activeBackground": "#070f15",
     //"activityBar.activeBorder": "#ffffff",
     //"activityBar.dropBorder": "#ffffff",
     //"activityBar.foreground": "#ffffff",
@@ -306,7 +306,7 @@
     //"icon.foreground": "#c5c5c5",
     //"input.foreground": "#ffffff",
     //"input.placeholderForeground": "#ffffff80",
-    //"inputOption.activeBackground": "#7e220066",
+    "inputOption.activeBackground": "#3399cc66",
     //"inputOption.activeForeground": "#ffffff",
     //"inputOption.hoverBackground": "#5a5d5e80",
     //"inputValidation.errorBackground": "#5a1d1d",
@@ -327,7 +327,7 @@
     //"list.errorForeground": "#f88070",
     //"list.filterMatchBackground": "#ea5c0055",
     //"list.focusHighlightForeground": "#3399cc",
-    //"list.focusOutline": "#7e2200",
+    "list.focusOutline": "#3399cc",
     //"list.invalidItemForeground": "#b89500",
     //"list.warningForeground": "#cca700",
     //"listFilterWidget.background": "#653723",
@@ -368,12 +368,12 @@
     //"minimapSlider.hoverBackground": "#64646459",
     //"notebook.cellBorderColor": "#ffffff33",
     //"notebook.cellEditorBackground": "#0a1620",
-    //"notebook.cellInsertionIndicator": "#7e2200",
+    "notebook.cellInsertionIndicator": "#3399cc",
     //"notebook.cellStatusBarItemHoverBackground": "#ffffff26",
     //"notebook.cellToolbarSeparator": "#80808059",
     //"notebook.editorBackground": "#09131b",
-    //"notebook.focusedCellBorder": "#7e2200",
-    //"notebook.focusedEditorBorder": "#7e2200",
+    "notebook.focusedCellBorder": "#3399cc",
+    "notebook.focusedEditorBorder": "#3399cc",
     //"notebook.inactiveFocusedCellBorder": "#ffffff33",
     //"notebook.selectedCellBackground": "#ffffff33",
     //"notebook.selectedCellBorder": "#ffffff33",
@@ -903,7 +903,15 @@
       }
     },
     {
-      "scope": ["punctuation.definition.heading.markdown", "punctuation.definition.string.begin.markdown", "punctuation.definition.string.end.markdown", "punctuation.definition.quote.begin.markdown", "punctuation.definition.list.begin.markdown", "markup.fenced_code.block.markdown", "meta.separator.markdown"],
+      "scope": [
+        "punctuation.definition.heading.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.quote.begin.markdown",
+        "punctuation.definition.list.begin.markdown",
+        "markup.fenced_code.block.markdown",
+        "meta.separator.markdown"
+      ],
       "settings": {
         "foreground": "#356EA0"
       }
@@ -964,7 +972,19 @@
       }
     },
     {
-      "scope": ["modifier", "this", "comment", "storage.modifier.js", "storage.modifier.ts", "storage.modifier.tsx", "entity.other.attribute-name.js", "entity.other.attribute-name.ts", "entity.other.attribute-name.tsx", "entity.other.attribute-name.html", "keyword.control.flow.js"],
+      "scope": [
+        "modifier",
+        "this",
+        "comment",
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.html",
+        "keyword.control.flow.js"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
