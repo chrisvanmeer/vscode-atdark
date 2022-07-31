@@ -1,5 +1,6 @@
 {
   "name": "AT Dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#0c1a25",
     "activityBarBadge.background": "#3399cc",
@@ -49,10 +50,10 @@
     "selection.background": "#3399cc",
     "sideBar.background": "#0a1620",
     "sideBarSectionHeader.background": "#0c1a25",
-    "statusBar.background": "#070f15",
+    "statusBar.background": "#4370b6",
     "statusBar.debuggingBackground": "#3399cc",
     "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#070f15",
+    "statusBar.noFolderBackground": "#4370b6",
     "statusBarItem.activeBackground": "#3399cc80",
     "statusBarItem.hoverBackground": "#ffffff1a",
     "statusBarItem.remoteBackground": "#3399cc",
@@ -689,7 +690,7 @@
     {
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -731,7 +732,7 @@
     {
       "scope": "storage.type, storage.modifier, keyword.operator.expression",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -788,7 +789,7 @@
     {
       "scope": "template.expression.begin, template.expression.end, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -812,13 +813,13 @@
     {
       "scope": "constant.language.json",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -836,7 +837,7 @@
     {
       "scope": "meta.tag, punctuation.definition.tag",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -854,7 +855,7 @@
     {
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -866,7 +867,7 @@
     {
       "scope": "text.html.markdown beginning.punctuation.definition.list",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
@@ -925,7 +926,7 @@
     {
       "scope": "entity.name.section.group-title.ini",
       "settings": {
-        "foreground": "#FF652F"
+        "foreground": "#3399cc"
       }
     },
     {
