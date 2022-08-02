@@ -1,7 +1,7 @@
 {
   "name": "atdark",
-  "displayName": "AT Dark",
-  "description": "Dark AT theme for VSCode",
+  "displayName": "ATypical Dark",
+  "description": "Dark ATypical theme for VSCode",
   "author": {
     "name": "Chris van Meer",
     "email": "c.v.meer@atcomputing.nl",
@@ -13,7 +13,7 @@
     "url": "https://github.com/chrisvanmeer/vscode-atdark"
   },
   "icon": "images/icon/at-logo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -23,9 +23,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "AT Dark",
+        "label": "ATypical Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/AT Dark-color-theme.json"
+        "path": "./themes/ATypical Dark-color-theme.json"
       }
     ]
   }

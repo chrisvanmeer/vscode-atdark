@@ -1,7 +1,5 @@
 # Change Log
 
-All notable changes to the "atdark" extension will be documented in this file.
-
 ## [0.0.1]
 
 - Initial release
@@ -14,3 +12,7 @@ All notable changes to the "atdark" extension will be documented in this file.
 
 - Color changes
 - Code preview screenshot added
+
+## [0.0.4]
+
+- Theme name change
